@@ -40,10 +40,6 @@ Este projeto consiste no desenvolvimento de um site para a Papelaria Trindade, c
 
 - Eduardo Rodrigues Oliveira
 
-## Licença
-
-Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
-
 ---
 
 Este é um projeto fictício desenvolvido como exemplo para demonstrar habilidades em HTML, CSS e JavaScript.
