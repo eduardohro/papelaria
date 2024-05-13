@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papelaria Trindade</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <h5>PAPELARIA TRINDADE 
+                <span>& VARIEDARES</span>
+            </h5>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Produtos</a>
+                    <ul class="submenu">
+                        <li><a href="#material-escolar" onclick="showContent('material-escolar')">Material Escolar</a></li>
+                        <li><a href="#banho" onclick="showContent('banho')">Banho</a></li>
+                        <li><a href="#tecnologia" onclick="showContent('tecnologia')">Tecnologia</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Produtos</a>
+                    <ul class="submenu">
+                        <li><a href="#material-escolar" onclick="showContent('material-escolar')">Material Escolar</a></li>
+                        <li><a href="#banho" onclick="showContent('banho')">Banho</a></li>
+                        <li><a href="#tecnologia" onclick="showContent('tecnologia')">Tecnologia</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </header>
+</body>
+</html>
