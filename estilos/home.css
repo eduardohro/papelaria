@@ -64,9 +64,9 @@
 }
 
 #banner img {
-    height: auto; /* Permite a imagem redimensionar proporcionalmente */
-    max-height: 100%; /* Garante que a imagem não ultrapasse a altura do banner */
-    width: 400px; /* Define a largura da imagem */
+    height: auto; 
+    max-height: 100%;
+    width: 400px; 
     top: 0;
 }
 
