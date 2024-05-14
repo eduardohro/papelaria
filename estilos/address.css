@@ -2,9 +2,24 @@
 
 #endereco {
     margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   #mapa {
-    height: 400px; /* Altura do mapa */
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
+    width: 80%; 
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  #mapa iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
   }
