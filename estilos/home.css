@@ -76,6 +76,10 @@
         padding-top: 0px;
     }
 
+    #cta .title {
+        font-size: 3rem;
+    }
+
     #banner,
     #banner img {
         display: none;
