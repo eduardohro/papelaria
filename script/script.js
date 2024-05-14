@@ -66,3 +66,16 @@ function showContent(category) {
 
     document.getElementById(category).style.display = 'block';
 }
+
+function initMap() {
+    var mapa = document.getElementById('mapa');
+    var coordenadas = {lat: -23.5505199, lng: -46.6333094}; // Coordenadas da localização da papelaria
+    var map = new google.maps.Map(mapa, {
+      center: coordenadas,
+      zoom: 16 // Zoom do mapa
+    });
+    var marker = new google.maps.Marker({
+      position: coordenadas,
+      map: map
+    });
+  }
