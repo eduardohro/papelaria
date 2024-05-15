@@ -77,7 +77,7 @@ h5:hover::after {
 
 .nav-item.active a {
     color: var(--color-4);
-   border-bottom: 3px solid var(--color-4);
+    border-bottom: 3px solid var(--color-4);
 }
 
 #mobile_btn {
@@ -107,7 +107,7 @@ h5:hover::after {
 .submenu li a {
     display: block;
     padding: 5px 10px;
-    color: #333;
+    color: var(--color-4);
     text-decoration: none;
 }
 
@@ -155,7 +155,7 @@ h5:hover::after {
 
     .submenu {
         position: absolute;
-        top: calc(100% - 43px);
+        top: calc(100% - 115px);
         display: none;
         background-color: var(--color-1);
         border: 1px solid #ccc;
